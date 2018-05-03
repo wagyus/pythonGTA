@@ -1,4 +1,4 @@
-# create_training_data.py
+# Older version of creating training data for the CNN.
 
 import numpy as np
 from grabscreen import grab_screen
