@@ -22,7 +22,7 @@ nk = [0,0,0,0,0,0,0,0,1]
 starting_value = 1
 
 while True:
-    file_name = 'D:/SelfDrivingGTA_DATA/training_data-recording-new-{}.npy'.format(starting_value)
+    file_name = 'D:/SelfDrivingGTA_DATA/training_data-car-afternoon-{}.npy'.format(starting_value)
 ##               Change to a path you want to save the .npy file to
 
     if os.path.isfile(file_name):
@@ -104,7 +104,7 @@ def main(file_name, starting_value):
                     print('SAVED')
                     training_data = []
                     starting_value += 1
-                    file_name = 'D:/SelfDrivingGTA_DATA/training_data-recording-new-{}.npy'.format(starting_value)
+                    file_name = 'D:/SelfDrivingGTA_DATA/training_data-car-afternoon-{}.npy'.format(starting_value)
 ##                  SAVES FINAL FILES IN SEGMENTS. CHANGE THIS TO YOUR DIRECTORY.
 
         keys = key_check()
