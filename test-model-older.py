@@ -18,7 +18,7 @@ WIDTH = 160
 HEIGHT = 120
 LR = 1e-3
 EPOCHS = 10
-MODEL_NAME = 'D:/SelfDrivingGTA_DATA/pygta5-motorcycle-training-data-and-model/model/motorcycle-0.001-alexnetv2-20-20-epochs-300K-data.model'.format(LR, 'alexnetv2',EPOCHS)
+MODEL_NAME = 'D:/SelfDrivingGTA_DATA/motorcycle-0.001-alexnetv2-20-20-epochs-300K-data.model'.format(LR, 'alexnetv2',EPOCHS)
 #             Change this string to point to your completed model to load. (After training the model with Tensorflow).
 
 t_time = 0.09
