@@ -5,7 +5,8 @@ import pandas as pd
 from collections import Counter
 from random import shuffle
 
-train_data = np.load('training_data-1058.npy')
+train_data = np.load('D:/SelfDrivingGTA_DATA/afternoon-car/training_data-car-afternoon-{}.npy')
+#                    Change above sting to your .npy file after collecting training data.
 
 df = pd.DataFrame(train_data)
 print(df.head())
@@ -38,4 +39,5 @@ rights = rights[:len(forwards)]
 final_data = forwards + lefts + rights
 shuffle(final_data)
 
-np.save('training_data.npy', final_data)
+np.save('D:/SelfDrivingGTA_DATA/afternoon-car/training_data-afternoon-balenced.npy', final_data)
+#      Numby will balence the file and then output a balenced file which you should change above.
