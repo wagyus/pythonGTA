@@ -26,7 +26,7 @@ def resnext(width, height, frame_count, lr, output=9, model_name = 'sentnet_colo
                              loss='categorical_crossentropy')
 
     model = tflearn.DNN(net,
-                        max_checkpoints=0, tensorboard_verbose=0, tensorboard_dir='log')
+                        max_checkpoints=1, tensorboard_verbose=0, tensorboard_dir='log')
 
     return model
 

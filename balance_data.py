@@ -5,7 +5,7 @@ import pandas as pd
 from collections import Counter
 from random import shuffle
 
-train_data = np.load('D:/SelfDrivingGTA_DATA/afternoon-car/training_data-car-afternoon-{}.npy')
+train_data = np.load('D:/SelfDrivingGTA_DATA/afternoon-car/training_data-car-afternoon-1.npy')
 #                    Change above sting to your .npy file after collecting training data.
 
 df = pd.DataFrame(train_data)
