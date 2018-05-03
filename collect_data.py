@@ -76,7 +76,7 @@ def main(file_name, starting_value):
     while(True):
 
         if not paused:
-            screen = grab_screen(region=(0,40,1920,1120))
+            screen = grab_screen(region=(0, 40, 1600, 910))
             last_time = time.time()
             # resize to something a bit more acceptable for a CNN
             screen = cv2.resize(screen, (480,270))
