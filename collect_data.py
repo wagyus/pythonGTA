@@ -1,5 +1,6 @@
 ## This is the latest version to collect data for the bot
 ## Includes array for other key combination when driving
+## Uses game screen size of 1600x900 Windowed mode. The window must be placed in the top left corner of the primary monitor.
 
 import numpy as np
 from grabscreen import grab_screen
